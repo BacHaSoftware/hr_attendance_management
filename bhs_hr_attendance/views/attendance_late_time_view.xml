@@ -45,6 +45,13 @@
               groups="hr_attendance.group_hr_attendance_officer"
               action="hr_attendance_action_late"/>
 
+    <menuitem id="menu_hr_attendance_reporting"
+              name="Reporting"
+              parent="hr_attendance.menu_hr_attendance_reporting"
+              sequence="16"
+              groups="hr_attendance.group_hr_attendance_officer"
+              action="hr_attendance.hr_attendance_reporting"/>
+
 <!--    <menuitem id="menu_hr_attendance_view_attendances"-->
 <!--              name="Report Attendances"-->
 <!--              parent="hr_attendance.menu_hr_attendance_reporting"-->
